@@ -45,7 +45,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse("https://github.com/fikrinazeef/"));
+                intent.setData(Uri.parse("https://github.com/fikrinazeef/Assignment"));
                 startActivity(intent);
             }
         });
