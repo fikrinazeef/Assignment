@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="farid">MUHAMMAD FARID BIN MOHD BOHARI \n 2019359007</string>
+    <string name="farid2">2019359007</string>
+    <string name="fikri">FIKRI NAZEEF BIN JASNI \n 2019311899  </string>
+    <string name="fikri2">2019311899 </string>
+    <string name="kelas">RCS2405B </string>
+    <string name="uitm">UNIVERSITI TEKNOLOGI MARA PERLIS BRANCH ARAU CAMPUS </string>
+    <string name="copy">Copyright (C) 2021 Assignment ICT602 Fikri and Farid</string>
+
+    <string name="infofarid">My name is Muhammad Farid Bin Mohd Bohari. I am a degree student with Bachelor Degree in Information Technology (HONS). My hobby is playing games and badminton.</string>
+
+    <string name="infofikri">Hi, my name is Fikri Nazeef Bin Jasni. I live in Klang, Selangor. I have completed my Diploma in Programming
+    at Polytechnic Sultan Mizan Zainal Abidin, Terengganu. Currently pursuing my studies at UiTM Arau. A person who love to plays
+    Futsal and Extreme Sports ! Hit me up at fikrinazeef14@gmail.com Thank You and Stay Safe ! </string>
+
+</resources>

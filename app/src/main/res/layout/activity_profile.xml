@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+        <ImageView
+            android:id="@+id/logouitm"
+            android:layout_width="400dp"
+            android:layout_height="250px"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:src="@drawable/uitm" />
+
+        <TextView
+            android:id="@+id/uitm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/uitm"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/programcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CS240"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="RCS2405B"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+
+        android:id="@+id/sam"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:paddingLeft="16dip"
+        android:paddingTop="16dip"
+        android:paddingRight="16dip"
+        android:src="@drawable/photo" />
+
+    <TextView
+        android:id="@+id/fikri"
+        android:layout_width="296dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/fikri"
+        android:textSize="18sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/click"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="click me"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/yed"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:paddingLeft="16dip"
+            android:paddingTop="16dip"
+            android:paddingRight="16dip"
+            android:src="@drawable/yed" />
+        <TextView
+            android:id="@+id/farid"
+            android:layout_width="291dp"
+            android:layout_height="121dp"
+            android:gravity="center"
+            android:paddingTop="15dip"
+            android:text="@string/farid"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/clicks"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="click me"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/sourcecode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingTop="10dip"
+            android:text="ICT 602 BMI CALCULATOR "
+            android:textColor="#0009ff"
+            android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/copy" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
